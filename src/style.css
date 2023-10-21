@@ -1,0 +1,148 @@
+html {
+    height: 97.5vh;
+    width: 99.5vw;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* This is the css for the chessboard to make it look kind of like a chess board. */
+#maincontainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#gamecontainer {
+    display: grid;
+    grid-template: 64px / auto auto auto auto auto auto auto auto auto;
+    height: 576px;
+    width: 576px;
+}
+
+.gamespace {
+    height: 64px;
+    width: 100%;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#location72,
+#location63,
+#location54,
+#location45,
+#location36,
+#location27,
+#location18,
+#location9,
+#location8,
+#location7,
+#location6,
+#location6,
+#location5,
+#location4,
+#location3,
+#location2,
+#location1,
+#location0 {
+    border: none;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 32px;
+}
+
+#location10,
+#location11,
+#location12,
+#location13,
+#location14,
+#location15,
+#location16,
+#location17 {
+    border-bottom: 1px solid black;
+}
+
+#location17,
+#location26,
+#location35,
+#location44,
+#location53,
+#location62,
+#location71,
+#location80 {
+    border-left: 1px solid black;
+}
+
+#location10,
+#location12,
+#location14,
+#location16,
+#location20,
+#location22,
+#location24,
+#location26,
+#location28,
+#location30,
+#location32,
+#location34,
+#location38,
+#location40,
+#location42,
+#location44,
+#location46,
+#location48,
+#location50,
+#location52,
+#location56,
+#location58,
+#location60,
+#location62,
+#location64,
+#location66,
+#location68,
+#location70,
+#location74,
+#location76,
+#location78,
+#location80 {
+    background-color: aliceblue;
+}
+
+#location11,
+#location13,
+#location15,
+#location17,
+#location19,
+#location21,
+#location23,
+#location25,
+#location29,
+#location31,
+#location33,
+#location35,
+#location37,
+#location39,
+#location41,
+#location43,
+#location47,
+#location49,
+#location51,
+#location53,
+#location55,
+#location57,
+#location59,
+#location61,
+#location65,
+#location67,
+#location69,
+#location71,
+#location73,
+#location75,
+#location77,
+#location79 {
+    background-color: brown;
+}

@@ -1,2 +1,2 @@
-# knighttrevails
-The knight trevails project from the odin project.
+# linkedlistodinproj
+Odin project Knight Trevails.
